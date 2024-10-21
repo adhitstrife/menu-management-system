@@ -1,0 +1,2 @@
+[18-Jan-2024 09:13:58 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.0.30. in /home/asdorcom/asdorstaging.com/gift-portal/vendor/composer/platform_check.php on line 24
+[18-Jan-2024 09:32:14 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.0.30. in /home/asdorcom/asdorstaging.com/gift-portal/vendor/composer/platform_check.php on line 24
