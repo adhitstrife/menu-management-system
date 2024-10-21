@@ -6,6 +6,11 @@ export default defineConfig({
     server: {
         https: true,
     },
+    build: {
+        manifest: true,
+        outDir: "public/build",
+        assetsDir: "",
+    },
     plugins: [
         laravel({
             input: ["resources/css/app.css", "resources/js/app.jsx"],
