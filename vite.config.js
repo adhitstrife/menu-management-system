@@ -8,11 +8,8 @@ export default defineConfig({
     },
     build: {
         manifest: true,
-        outDir: "public/build", // Outputs files to public/build
-        assetsDir: "", // Ensures files are placed directly in public/build without extra folders
-        rollupOptions: {
-            input: ["resources/css/app.css", "resources/js/app.jsx"],
-        },
+        outDir: "public/build",
+        assetsDir: "",
     },
     plugins: [
         laravel({
